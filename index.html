@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css">
+
+</head>
+<body>
+
+    <header>
+
+        <h1>Sorting visualizer</h1>
+
+        <menu id = "menu">
+
+            <label for="sort">Choose a sort algorithm: </label>
+            <select class="sort" id="sort">
+                <option value="" default selected>Choose a sorting algorithm</option>
+                <option value="bubble">Bubble sort</option>
+                <option value="quick">Quick sort</option>
+                <option value="merge">Merge sort</option>
+                <option value="heap">Heap sort</option>
+            </select>
+            
+            <button id="startSort">Sort</button>
+            <button id="shuffle">Shuffle</button>
+            <button id="stop">Stop</button>
+            <button id="reset">Reset</button>
+
+        
+        </menu>
+    </header>
+
+    <canvas id="myCanvas" width="1080" height="720"> 
+
+    </canvas>
+
+    <script src="sorting.js"></script> 
+    
+</body>
+</html>
